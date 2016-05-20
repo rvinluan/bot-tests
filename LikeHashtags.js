@@ -1,5 +1,7 @@
 module.exports = {
-  run: function() {
-    console.log('hi');
-  }
+  run: run
+}
+
+function run() {
+  console.log('hi');
 }
